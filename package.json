@@ -14,7 +14,7 @@
     "retry": ">=0.6.0"
   },
   "devDependencies": {
-    "mocha": ">=1.0.1",
+    "mocha": "3.x.x",
     "expect.js": ">=0.1.2"
   },
   "scripts": {
