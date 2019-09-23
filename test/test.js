@@ -68,7 +68,7 @@ describe('Tolerance', function() {
 				var start = new Date();
 				tolerate(alwaysErr, 500, function(e, r) {
 					var diff = (new Date()).getTime() - start.getTime();
-					expect(500 - diff).to.be.within(-5, 5);
+					expect(500 - diff).to.be.within(-8, 8);
 					done();
 				});
 
@@ -126,7 +126,7 @@ describe('Tolerance', function() {
 				var start = new Date();
 				tolerate(alwaysErr, 800, function(e, r) {
 					var diff = (new Date()).getTime() - start.getTime();
-					expect(800 - diff).to.be.within(-20, 20);
+					expect(800 - diff).to.be.within(-50, 50);
 					done();
 				});
 
@@ -268,7 +268,7 @@ describe('Tolerance', function() {
 				var start = new Date();
 				tolerate(beginErr, 800, function(e, r) {
 					var diff = (new Date()).getTime() - start.getTime();
-					expect(300 - diff).to.be.within(-50, 50);
+					expect(300 - diff).to.be.within(-60, 60);
 					done();
 				});
 
@@ -389,7 +389,7 @@ describe('Tolerance', function() {
 					},
 					function(e, r) {
 						var diff = (new Date()).getTime() - start.getTime();
-						expect(200 - diff).to.be.within(-5, 5);
+						expect(200 - diff).to.be.within(-20, 20);
 						done();
 					}
 				);

@@ -8,8 +8,7 @@
     "node": ">=0.6.x",
     "npm": ">=1.1.x"
   },
-  "directories": {
-  },
+  "directories": {},
   "dependencies": {
     "retry": ">=0.6.0"
   },
@@ -32,10 +31,12 @@
     "wrap"
   ],
   "author": "adrai",
-  "maintainers":[ {
-     "name": "adrai",
-     "email": "adriano@raiano.ch"
-  }],
+  "maintainers": [
+    {
+      "name": "adrai",
+      "email": "adriano@raiano.ch"
+    }
+  ],
   "homepage": "https://github.com/adrai/tolerance",
   "bugs": {
     "url": "https://github.com/adrai/tolerance/issues"
