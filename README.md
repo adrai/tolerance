@@ -3,6 +3,7 @@
 # Introduction
 
 [![Build Status](https://secure.travis-ci.org/adrai/tolerance.png)](http://travis-ci.org/adrai/tolerance)
+[![Test Status](https://github.com/adrai/tolerance/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/adrai/tolerance/actions)
 
 Tolerance is a node.js module that wraps a function with retry functionality by passing a timeout. So the function will be more tolerant.
 
