@@ -3,7 +3,7 @@
 # Introduction
 
 [![Build Status](https://secure.travis-ci.org/adrai/tolerance.png)](http://travis-ci.org/adrai/tolerance)
-[![Test Status](https://github.com/adrai/tolerance/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/adrai/tolerance/actions)
+[![Actions](https://github.com/adrai/tolerance/workflows/node/badge.svg)](https://github.com/adrai/tolerance/actions?query=workflow%3Anode)
 
 Tolerance is a node.js module that wraps a function with retry functionality by passing a timeout. So the function will be more tolerant.
 
@@ -62,26 +62,3 @@ You can use it for example if you want to connect to a database that is not runn
 			// In the background 'tolerance' will retry to connect to the db.
 		}
 	);
-
-
-# License
-
-Copyright (c) 2019 Adriano Raiano
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
