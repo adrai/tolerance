@@ -1,1 +1,5 @@
 test
+.travis.yml
+.gitignore
+.github
+README.md
